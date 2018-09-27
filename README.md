@@ -1,5 +1,11 @@
 ﻿## Cat Shelter App - aplikacja tworzona w czasie warsztatów w CodersLab
 
+[See the project here!](https://tomaszkiewiczanna.github.io/react-training/)
+
+
+![N|Solid](https://image.ibb.co/dUGH1p/kotkmiot.png)
+
+
 Aplikacja ma pokazywać dane kotów przebywających w schronisku (płeć, wiek, imie, to czy kot lubi dzieci). Schronisko ma przygotowaną baze danych w następującym formacie:
 ```javascript   
 [
@@ -19,10 +25,5 @@ Jest to tablica obiektów. Każdy obiekt ma pola category, age, likesKids i name
 2) Koty, które nie mogą przebywać z małymi dziećmi są zaznaczone na czerwono
 3) Można filtrować koty po tym czy mogą przebywać z małymi dziećmi
 4) Można wyszukiwać kota po imieniu
-
-[See the project here!](https://tomaszkiewiczanna.github.io/react-training/)
-
-
-![N|Solid](https://image.ibb.co/dUGH1p/kotkmiot.png)
 
 
