@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     class CatRow extends React.Component {
         render() {
             var name = this.props.kitty.likesKids ?
-                this.props.kitty.name : <span style={{color: 'red'}}> {this.props.kitty.name} </span>;
+                this.props.kitty.name : <span style={{color: '#DD4464'}}> {this.props.kitty.name} !</span>;
             return <tr>
                 <td>{name}</td>
                 <td>{this.props.kitty.age}</td>
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 lastCategory = kitty.category;
             });
-            return <table>
+            return <table className="cat-table">
                 <thead>
                 <tr>
                     <th>Name</th>
@@ -77,9 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         render() {
-            return <form><input type="text"
+            return <form className="cat-form"><input type="text"
                                 value={this.props.filterText}
-                                onChange={this.handleText} placeholder="Search..."/><p>
+                                onChange={this.handleText} className="name-search" placeholder="Search cat by name"/><p>
                 <input type="checkbox"
                        value={this.props.likesKids}
                        onChange={this.handleCheckbox}/> Only show kitties that likes kids</p>
