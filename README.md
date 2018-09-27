@@ -20,4 +20,9 @@ Jest to tablica obiektów. Każdy obiekt ma pola category, age, likesKids i name
 3) Można filtrować koty po tym czy mogą przebywać z małymi dziećmi
 4) Można wyszukiwać kota po imieniu
 
+[See the project here!](https://tomaszkiewiczanna.github.io/react-training/)
+
+
+![N|Solid](https://image.ibb.co/dUGH1p/kotkmiot.png)
+
 
